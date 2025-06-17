@@ -1,0 +1,36 @@
+{
+  "username1": "calipso.kj@gmail.com",
+  "username2": "karanjain24189@gmail.com",
+  "username3": "jkaran24189@gmail.com",
+  "password": "abcd",
+  "initialBalance": 500.00,
+  "envelope":
+  {
+    "name": "Rent",
+    "amount": 800.00
+  },
+  "income":
+  {
+    "payer": "Salary",
+    "amount": 2000.00
+  },
+  "transaction":
+  [
+    {
+      "type" : "Single",
+      "payee" : "Mall",
+      "amount" : 10.00,
+      "envelopes" : "Gas"
+    },
+    {
+      "type" : "Multiple",
+      "payee" : "Vacation",
+      "amount" : 100.00,
+      "envelopes" :
+      {
+        "1" : "Gas",
+        "2" : "Groceries"
+      }
+    }
+  ]
+}
