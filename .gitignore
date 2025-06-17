@@ -46,3 +46,4 @@ screenshots/
 *.tmp
 .cache/
 *.log
+.idea/vcs.xml
